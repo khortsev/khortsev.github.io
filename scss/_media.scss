@@ -1,0 +1,125 @@
+@media (max-width: 960px){
+	.container{
+	//width: 960px;
+	//margin: auto;
+}
+.main__div{
+	//width: 864px;
+	margin: 0 48px 0 48px;
+}
+	.item{
+		flex-basis: 31%;
+		height: 28rem;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.item:hover{
+	background-color: #008000;
+	.round{
+  		width: 4rem;
+  		height: 4rem;
+	}
+}
+	.round{
+		top:2rem;
+		left:2rem;
+	}
+	.cardbox__text{
+		top: 2rem;
+		margin: auto;
+		width: 75%;
+		text-align: center;
+	}
+	input{
+		width: 332px;
+	}
+}
+@media (max-width: 640px){
+	.container{
+		width: 640px;
+	//	margin: auto;
+	}
+	.main__div{
+	width: 576px;
+	margin: auto;
+	}
+	.item{
+	flex-basis: 45%;
+	height: 22rem;
+	}
+	.item:hover{
+	background-color: #008000;
+	.round{
+		//position: relative;
+  		//top: -2rem;
+  		//left: -1px;
+  		width: 3rem;
+  		height: 3rem;
+		}
+	}
+	.osa_logo{
+		width: 89px;
+		height: 36px;
+	}
+	input{
+		width: 323px;
+	}
+}
+@media (max-width: 360px){
+	.container{
+		width: 360px;
+		margin: auto;
+	} 
+	.main__div{
+	width: 328px;
+	margin: auto;
+	}
+	.flex_sml{
+		overflow-x: hidden;
+	}
+	.item{
+		min-width: 247px;
+		flex-basis: 100%;
+		margin-right: 1rem;
+		min-height: 250px;
+		margin-top: 60px;
+	}
+	.item:hover{
+	background-color: #008000;
+	.round{
+		//position: relative;
+  		//top: -2rem;
+  		//left: -1px;
+  		width: 2rem;
+  		height: 2rem;
+	}
+}
+	.flex__container{
+		flex-wrap: nowrap;
+		overflow-x: scroll;
+		overflow-y: hidden;
+	}
+	.logo{
+		float: none;
+	}
+	.header_h{
+		display: block;
+
+	}
+	.header{
+		&__mainheader{
+		font-weight: 300;
+		font-size: 51px;
+		line-height: 60px;
+	 	}
+		&__secondaryheader{
+		font-weight: 300;
+		font-size: 40px;
+		line-height: 48px;
+		margin-top: 48px;
+		}
+	}
+	input{
+		width: 238px;
+	}
+}

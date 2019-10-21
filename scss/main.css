@@ -1,0 +1,103 @@
+svg path {
+  fill: inherit;
+  stroke: inherit;
+  stroke-width: inherit; }
+
+.osa_logo {
+  transition: all 0.4s ease; }
+
+.osa_logo:hover {
+  fill: #C72D2A; }
+
+.header__mainheader {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 62px;
+  line-height: 72px; }
+.header__text, .header .forms__text {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 49px;
+  line-height: 60px;
+  margin-top: 5em; }
+  .header__text_anno, .header__text .cardbox__text, .header__text .forms__text_anno, .header .forms__text_anno, .header .forms__text .cardbox__text, .header .forms__text .forms__text_anno {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px; }
+
+.cardbox {
+  background-color: #000000;
+  color: #fff;
+  width: 90%;
+  min-height: 12em;
+  display: inline-block; }
+  .cardbox__text {
+    display: inline-block; }
+
+.round {
+  position: relative;
+  width: 5em;
+  height: 5em;
+  top: 2em;
+  left: 2em;
+  border: 4px solid #fff;
+  border-radius: 60px;
+  background: mistyrose;
+  background-color: #000;
+  display: inline-block; }
+
+.contacts__name {
+  font-family: PT Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 0.5em; }
+  .contacts__name_input {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 0.5em;
+    width: 500px; }
+.contacts__btn {
+  background-color: #000000;
+  border-radius: 48px;
+  color: #fff; }
+
+footer {
+  background-color: #000;
+  height: 5em;
+  margin-top: 5em; }
+
+.mt {
+  margin-top: 5em; }
+
+.mtt {
+  margin-top: 4em; }
+
+input {
+  height: 30px; }
+
+i.fa {
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  margin-left: -26px;
+  position: relative;
+  z-index: 1; }
+
+.colored__focus:focus {
+  color: #D39A36; }
+
+.colored:hover {
+  color: #97962D; }
+
+i.fa + input {
+  padding-right: 26px; }
